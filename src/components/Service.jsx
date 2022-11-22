@@ -5,16 +5,15 @@ export function Service(){
     const [text, setText] = useState(''); 
 
     useEffect(() =>{
-        fetch("http://localhost:8080/RestApp/webresources/generic")
+        fetch("http://localhost:9890/")
         .then((respose) => respose.json())
         .then((service) => {
-             console.log(service.message);
-             setText(service.message);
+             console.log(service.mensaje);
+             setText(service.mensaje);
             
         });
      },[]);
-     
-     
+          
      return(
           <h2>{text}</h2>
      )

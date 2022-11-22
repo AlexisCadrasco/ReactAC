@@ -15,8 +15,7 @@ function Menu() {
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/clients">Clients</NavLink>
                         <NavLink to="/products">Products</NavLink>
-                        <NavLink to="/service">Services</NavLink>
-                        <NavLink to="/formulario">Formulario</NavLink>
+                        <NavLink to="/service">Services</NavLink>                        
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
